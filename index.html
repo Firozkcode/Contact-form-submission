@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Submission</title>
+</head>
+<style>
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+        height: 100vh; 
+    }   
+    form{
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+        width: 300px;
+        background-color: #f9f9f9;
+    }
+    input, textarea{
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        /* margin-bottom: 15px; */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    h2{
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <form action="submit.php" method="POST">
+        <h2>Contact Form</h2>
+        <label for="email">email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
