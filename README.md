@@ -23,7 +23,7 @@ Perfect for beginners learning backend form handling.
 
 ## ▶ Tutorial Video
 Check the YouTube tutorial here:
-(Add your video link)
+https://youtu.be/kig2fVP1dW8
 
 ## 📌 How to Run
 1. Create database named `youtube`
